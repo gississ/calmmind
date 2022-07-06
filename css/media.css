@@ -1,0 +1,31 @@
+/* Extra extra large */
+@media screen and (max-width: 1400px) {
+
+}
+/* Extra large */
+@media screen and (max-width: 1200px) {
+
+}
+/* Large */
+@media screen and (max-width: 992px) {
+    .header {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+}
+/* Medium */
+@media screen and (max-width: 768px) {
+    .navigation-wrapper {
+        display: none;
+    }
+    .nav-wrapper-mobile {
+        display: block;
+    }
+
+}
+/* Small */
+@media screen and (max-width: 576px) {
+
+}
+    
