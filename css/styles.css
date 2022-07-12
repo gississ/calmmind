@@ -2,6 +2,9 @@
 * {
     box-sizing: border-box;
 }
+p {
+    margin: 0;
+}
 ul {
     list-style: none;
     padding: 0;
@@ -9,6 +12,7 @@ ul {
 }
 img {
     display: block;
+    max-width: 100%;
 }
 
 html, body {
@@ -26,7 +30,9 @@ html, body {
     width: 100%;
     height: 100%;
     position: relative;
-    overflow: hidden;
+    overflow-x: hidden;
+    background: #FFBAA1;
+
 }
 .header {
     max-width: 990px;
@@ -94,4 +100,27 @@ html, body {
 }
 .burger-menu__item:last-child {
     margin-bottom: 0;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.hero__store {
+    flex-basis: 400px;    
+}
+.hero__title {
+    margin-bottom: 50px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 57px;
+    text-align: right;
+    
+}
+.mobile-stores {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
