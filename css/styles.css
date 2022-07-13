@@ -2,7 +2,7 @@
 * {
     box-sizing: border-box;
 }
-p {
+p, h1, h2, h3, h4 {
     margin: 0;
 }
 ul {
@@ -111,7 +111,7 @@ html, body {
 }
 .hero__title {
     margin-bottom: 50px;
-    font-family: 'Nunito';
+    font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 42px;
@@ -123,4 +123,48 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+}
+.reviews {
+    background: white;
+}
+.reviews__title {
+    margin: 0 auto;
+    padding-top: 116px;
+    max-width: 433px;
+    margin-bottom: 36px;    
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 57px;
+    text-align: center;
+    
+}
+
+.feedback {
+    max-width: 440px; 
+    margin: 0 80px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 39px;
+    text-align: center;
+}
+
+.swiper-button-next::after {
+    width: 24px;
+    height: 24px;
+    content: '';
+    background-image: url(../images/right-arrow.svg);
+}
+.swiper-button-prev::after {
+    width: 24px;
+    height: 24px;
+    content: '';
+    background-image: url(../images/left-arrow.svg);
+    
+}
+.swiper {
+    max-width: 620px;
 }
