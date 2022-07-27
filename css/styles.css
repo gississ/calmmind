@@ -32,6 +32,7 @@ html, body {
     position: relative;
     overflow-x: hidden;
     background: #FFBAA1;
+    padding-bottom: 350px;
 
 }
 .header {
@@ -104,7 +105,8 @@ html, body {
 .hero {
     display: flex;
     align-items: center;
-    justify-content: center;   
+    justify-content: center;  
+    padding-bottom: 80px; 
 }
 .hero__store {
     flex-basis: 400px;    
@@ -123,6 +125,68 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+}
+.guide {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+
+}
+
+.guide-info {
+    max-width: 440px;
+    margin-left: 150px;
+}
+.guide-info__title {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 57px;
+    margin-bottom: 20px;
+
+}
+.guide-info__tekst {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 39px;
+
+    margin-bottom: 35px;  
+} 
+
+.guide-info__link {
+    display: block;
+    text-align: center;
+    padding: 17px 0;
+
+    border-radius: 4px;
+    background-color: #110ACD;
+
+    position: relative;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration: none;
+}
+.guide-info__link::before {
+    content: '\25B2';
+    display: block;
+    
+    position: absolute;
+    left: 30px;
+    top: 50%;
+
+    transform: translateY(-50%) rotate(90deg);
+
+    font-size: 50px;
 }
 .reviews {
     background: white;
@@ -167,4 +231,14 @@ html, body {
 }
 .swiper {
     max-width: 620px;
+}
+.people {
+    min-height: 325px;
+    
+    background-color: white;
+    background-image: url(..//images/people-desktop.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+
 }

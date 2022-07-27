@@ -18,6 +18,16 @@
         margin-right: 15px;
         margin-left: 15px;
     }
+    .guide {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .guide-info {
+        margin-left: 50px;
+    }
+    .people {
+        background-image: url(..//images/people-tablet.png);       
+    }
 
 }
 /* Medium */
@@ -33,6 +43,7 @@
     }
     .hero {
         flex-direction: column-reverse;
+        padding-bottom: 120px;
     }
     .hero__title{
         text-align: center;   
@@ -40,10 +51,39 @@
     .mobile-stores {
         justify-content: center;
     }
+    .guide {
+        flex-direction: column;
+        padding-top: 0;
+    }
+    .guide__image {
+        max-height: 500px;
+        position: relative;
+        top: -180px;
+        
+    }
+    .guide-info {
+        margin-left: 0;
+        position: relative;
+        top: -60px;
+        
+    }
+    
 
 }
 /* Small */
 @media screen and (max-width: 576px) {
+    .wrapper {
+        padding-bottom: 116px;
+    }
+    .guide-info {
+        margin: 0 10px;
+    }
+    .hero {
+        padding-bottom: 150px;
+    }
+    .people {
+        background-image: url(..//images/people-mobile.png);
+    }
 
 }
     
